@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""The `amenity` module, containing the Amenity class
-This module defines the `Amenity` class, 
-which inherits from the `BaseModel` class.
+"""
+The `amenity` module, containing the Amenity class
 """
 from models.base_model import BaseModel
 
