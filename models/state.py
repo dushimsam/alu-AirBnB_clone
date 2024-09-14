@@ -9,7 +9,6 @@ from models.base_model import BaseModel
 class State(BaseModel):
     """
     The class definition
-    
     Attributes:
         name (str): The state name
     """
