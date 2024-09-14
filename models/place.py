@@ -1,21 +1,15 @@
 #!/usr/bin/python3
 """
-This module defines the `Place` class, which serves as a blueprint for creating 
-place/house objects within the application.
+This module defines the `Place` class, which serves as a blueprint for creating place/house objects within the application.
 """
 
 from models.base_model import BaseModel
 
-
 class Place(BaseModel):
     """
     Represents a place or house within the application.
-
-    The `Place` class extends `BaseModel` and adds attributes specific to 
-    a place or house. This class is used to model various properties of 
-    accommodation in the system.
     """
-
+    
     city_id = ""
     user_id = ""
     name = ""
