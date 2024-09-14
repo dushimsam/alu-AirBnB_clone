@@ -1,17 +1,19 @@
 #!/usr/bin/python3
 """
-The `amenity` module, containing the Amenity class
+Create Amenity module inheriting properties from the BaseModel Class
 """
+
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Represents a specific amenity or feature available at a property.
+    """
+    This is the amenity class
 
     Attributes:
-        name (str): The name of the amenity or feature provided.
+        name (str): The name of the amenity
     """
+    name = ""
 
-    name = ""    
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
