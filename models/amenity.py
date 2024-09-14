@@ -12,7 +12,6 @@ class Amenity(BaseModel):
         name (str): The name of the amenity or feature provided.
     """
 
-    name = ""
-    
+    name = ""    
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
