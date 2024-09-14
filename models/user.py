@@ -24,7 +24,7 @@ class User(BaseModel):
         last_name (str): The user's last name, used for personal identification and 
                          formal communication.
     """
-    
+
     email = ""
     password = ""
     first_name = ""
