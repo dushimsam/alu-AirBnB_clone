@@ -16,12 +16,12 @@ class User(BaseModel):
     details such as authentication and personal information.
 
     Attributes:
-        email (str): The email address associated with the user account. Used for 
+        email (str): The email address associated with the user account. Used for
                      user identification and communication.
         password (str): The password for the user account, typically stored in a
                         hashed format for security.
         first_name (str): The user's first name, used for personal identification.
-        last_name (str): The user's last name, used for personal identification and 
+        last_name (str): The user's last name, used for personal identification and
                          formal communication.
     """
 
@@ -34,7 +34,7 @@ class User(BaseModel):
         """
         Initializes a new `User` instance.
 
-        This method sets up the user attributes either from provided keyword arguments 
+        This method sets up the user attributes either from provided keyword arguments
         (kwargs) or by using default values. It ensures that the user object is correctly
         initialized with all necessary attributes by inheriting from the `BaseModel` class.
 
